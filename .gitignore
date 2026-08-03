@@ -15,6 +15,17 @@
 /[Uu]ser[Ss]ettings/
 *.log
 
+# Nested Unity project in this repository.
+/friend/[Ll]ibrary/
+/friend/[Tt]emp/
+/friend/[Oo]bj/
+/friend/[Bb]uild/
+/friend/[Bb]uilds/
+/friend/[Ll]ogs/
+/friend/[Uu]ser[Ss]ettings/
+/friend/[Mm]emoryCaptures/
+/friend/[Rr]ecordings/
+
 # By default unity supports Blender asset imports, *.blend1 blender files do not need to be commited to version control.
 *.blend1
 *.blend1.meta
@@ -104,3 +115,9 @@ InitTestScene*.unity*
 
 # Auto-generated cache in Assets folder
 /[Aa]ssets/[Ss]ceneDependencyCache*
+
+# Local setup/test artifacts.
+/.tmp_univrm_resolve/
+/TempUniVRMResolveProject/
+/matedesktop-run*.png
+/unity-*.png
