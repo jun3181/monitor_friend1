@@ -31,6 +31,7 @@ namespace Mate.Editor
             Directory.CreateDirectory(BuildDirectory);
 
             MatePhase1SceneBuilder.CreateOrOpenScene();
+            MatePhase2SceneBuilder.InstallPhase2Components();
             EditorSceneManager.SaveOpenScenes();
 
             if (EditorUserBuildSettings.activeBuildTarget != BuildTarget.StandaloneWindows64)

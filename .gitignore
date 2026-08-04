@@ -121,3 +121,9 @@ InitTestScene*.unity*
 /TempUniVRMResolveProject/
 /matedesktop-run*.png
 /unity-*.png
+
+# Local speech-recognition model/audio artifacts.
+/friend/[Aa]ssets/[Ss]treaming[Aa]ssets/[Ww]hisper/*.bin
+/friend/[Aa]ssets/[Ss]treaming[Aa]ssets/[Ww]hisper/*.bin.meta
+/friend/[Aa]ssets/[Ss]treaming[Aa]ssets/[Ww]hisper/*.wav
+/friend/[Aa]ssets/[Ss]treaming[Aa]ssets/[Ww]hisper/*.wav.meta
